@@ -1,0 +1,20 @@
+app:
+  config:
+    name: "MyYamlApp"
+    max-users: 200
+    enabled: true
+
+# 使用 my.map.data 作为属性前缀
+my:
+  map:
+    data:
+      map:
+        keyA: value1
+        keyB: value2
+        timeout: 1000
+
+# api.endpoints.map: "{'users': 'api.com', 'products': 'api.com'}"
+api:
+  endpoints:
+    map: "{'users': 'api.com', 'products': 'api.com'}"
+
