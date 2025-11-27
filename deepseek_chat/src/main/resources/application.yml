@@ -1,0 +1,6 @@
+openai:
+  api:
+    key: sk-0d2a13acb80d427e935b2e7c43ffa8f4
+    url: https://api.deepseek.com/chat/completions
+    model: deepseek-chat
+
